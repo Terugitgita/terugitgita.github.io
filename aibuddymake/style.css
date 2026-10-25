@@ -1,0 +1,12 @@
+:root { --accent: #7C6CF2; --text: #24242c; --muted: #6b6b7b; --bg: #ffffff; --card: #f7f7fa; }
+@media (prefers-color-scheme: dark) { :root { --text: #ececf2; --muted: #a7a7b6; --bg: #121216; --card: #1e1e24; --accent: #b3a8ff; } }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", "PingFang SC", "PingFang TC", "Apple SD Gothic Neo", "Segoe UI", sans-serif; color: var(--text); background: var(--bg); line-height: 1.75; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 1.6rem; margin: 0 0 4px; }
+h2 { font-size: 1.15rem; margin: 32px 0 8px; color: var(--accent); }
+.meta { color: var(--muted); font-size: .9rem; margin-bottom: 24px; }
+.card { background: var(--card); border-radius: 16px; padding: 16px 20px; }
+nav a { color: var(--accent); margin-right: 12px; text-decoration: none; }
+ul { padding-left: 1.2em; }
+h3 { font-size: 1rem; margin: 20px 0 6px; }
